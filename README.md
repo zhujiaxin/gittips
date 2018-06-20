@@ -11,3 +11,4 @@ git reflog 可以查看版本回退的id 向前恢复
 git的暂存区 如果忘记 查看 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013745374151782eb658c5a5ca454eaa451661275886c6000
 git diff HEAD -- xx.txt命令可以查看工作区和版本库里面最新版本的区别
 git checkout --file 可以撤销工作区的修改
+git rm  删除工作区的文件，git commit   
