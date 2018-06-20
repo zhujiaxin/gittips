@@ -12,3 +12,12 @@ git的暂存区 如果忘记 查看 https://www.liaoxuefeng.com/wiki/00137395163
 git diff HEAD -- xx.txt命令可以查看工作区和版本库里面最新版本的区别
 git checkout --file 可以撤销工作区的修改
 git rm  删除工作区的文件，git commit   
+查看分支 git branch
+创建分支 git branch <name>
+切换分支 git checkout <name>
+创建+切换分支 git checkout -b <name>
+合并某个分支到当前分支 git merge <name> 
+删除分支 git branch -d <name>
+关联远程库 git remote add origin git@server-name:path/repo-name.git
+关联库之后，git push -u origin mastrer 第一次推送
+git push origin master 提交修改
